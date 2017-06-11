@@ -1,0 +1,6 @@
+framework module Pods_NFCDemoTests {
+  umbrella header "Pods-NFCDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
