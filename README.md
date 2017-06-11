@@ -23,7 +23,7 @@ CoreNFCDemo is a sample project to show capabilities of new CoreNFC framework ad
       - You can only run this project on actual device. It's not possible to build it when any iOS simulator is selected.
       
   - 'Unknown' error shows up in delegate even when CoreNFC reads a tag
-      - Yes, I'm getting it as well. I have no idea why CoreNFC retunrs tag data and Unknown error at the same time
+      - Yes, I'm getting it as well. I have no idea why CoreNFC returns tag data and Unknown error at the same time
   
   - I cannot read any tag
       - You can only use CoreNFC to read NDEF tags. Most of the cards (i.e credit cards, member cards) cannot be read with the framework
