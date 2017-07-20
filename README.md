@@ -29,7 +29,8 @@ CoreNFCDemo is a sample project to show capabilities of new CoreNFC framework ad
       - You can only use CoreNFC to read NDEF tags. Most of the cards (i.e credit cards, member cards) cannot be read with the framework
       
   - Sometimes I cannot read proper tag
-      - It looks like sometimes NFC chip gets freeze and cannot read any tag. I hope it'll be fixed in future betas
+     - ~~It looks like sometimes NFC chip gets freeze and cannot read any tag. I hope it'll be fixed in future betas~~
+     **This has been fixed in iOS 11 Beta 3**
   
   - I can build the project on iPhone 6s but there is no NFC dialog
       - You can only use CoreNFC with iPhone 7 and iPhone 7 Plus. On other devices you'll get **FeatureUnsupported** error
